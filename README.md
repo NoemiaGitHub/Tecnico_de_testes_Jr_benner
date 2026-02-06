@@ -1,26 +1,40 @@
-# Project Empty Template
+# Avaliação Técnica – Técnico de Testes Júnior  
+*Benner | Plataforma Coodesh*
 
-Este é um repositório de exemplo para você começar a desenvolver a questão, leia com atenção os requisitos do enunciado da questão na plataforma e seguia as boas práticas sobre como utilizar este repositório.
+## 📌 Objetivo
+Este repositório contém a resolução da avaliação técnica para a vaga de *Técnico de Testes Júnior, com foco na validação do módulo de **Autorização de Exames*, abordando:
 
+- Consultas SQL
+- Casos de teste manuais
+- Relato de bugs
+- Proposta de automação (pseudo-código)
 
-## Readme do Repositório
+O objetivo é demonstrar conhecimento em *QA, **regras de negócio, **pensamento analítico* e *boas práticas de documentação*.
 
-- Deve conter o título do projeto
-- Uma descrição sobre o projeto em frase
-- Deve conter uma lista com linguagem, framework e/ou tecnologias usadas
-- Como instalar e usar o projeto (instruções)
-- Não esqueça o [.gitignore](https://www.toptal.com/developers/gitignore)
-- Se está usando github pessoal, referencie que é um challenge by coodesh:  
+---
 
->  This is a challenge by [Coodesh](https://coodesh.com/)
+## 🧪 Escopo da Avaliação
+O módulo avaliado é responsável por autorizar exames médicos de beneficiários, respeitando regras como:
 
-## Finalização e Instruções para a Apresentação
+- Status do beneficiário (ATIVO / INATIVO)
+- Cobertura do exame pelo plano
+- Validação de datas
+- Registro e controle das autorizações
 
-1. Adicione o link do repositório com a sua solução na questão na plataforma
-2. Verifique se o Readme está bom e faça o commit final em seu repositório;
-3. Envie e aguarde as instruções para seguir. Caso o teste tenha apresentação de vídeo, dentro da tela de entrega será possível gravar após adicionar o link do repositório. Sucesso e boa sorte. =)
+---
 
+## 📂 Estrutura do Repositório
 
-## Suporte
-
-Para tirar dúvidas sobre o processo envie uma mensagem diretamente a um especialista no chat da plataforma. 
+```text
+Tecnico_de_testes_Jr_benner/
+│
+├── sql/
+│   └── consultas_autorizacao.sql
+│
+├── testes/
+│   └── casos_testes_autorizacao.md
+│
+├── bugs/
+│   └── bug_report.md
+│
+└── README.md
